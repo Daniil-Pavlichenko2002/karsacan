@@ -130,11 +130,12 @@ body {
     align-items: center;
 }
 .equipment__images {
-    gap: 1%;
+    gap: 5%;
     display: flex;
 }
 .equipment__images img {
-    width: 24%;
+    width: 20%;
+    object-fit: cover;
 }
 .equipment__logo {
     margin-top: 10px;
@@ -168,7 +169,8 @@ body {
 .youtobe a {
     text-decoration: underline;
     font-weight: 600;
-    color: #148fb8;
+    /* color: #148fb8; */
+    color: #3366BB;
 }
 .youtobe p{
     font-size: 24px;
